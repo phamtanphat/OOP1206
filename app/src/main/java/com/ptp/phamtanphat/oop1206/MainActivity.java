@@ -12,8 +12,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 //        Class : La mot tap cac doi tuong giong ve thuoc tinh hay hanh vi
 
-        Lopdongvat concho = new Lopdongvat();
-        concho.setTen("Con Cho");
+        Lopdongvat concho = new Lopdongvat("Con cho" , 10);
+
         Toast.makeText(this, concho.getTen(), Toast.LENGTH_SHORT).show();
 
 //        Lopdongvat conbo = new Lopdongvat();
